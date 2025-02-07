@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página No Encontrada</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            position: absolute;
+            top: -100px; /* Moví el logo un poco más arriba */
+            width: 250px; /* Aumenté el tamaño del martillo */
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start; /* Alinea la imagen a la izquierda */
+        }
+        .image-container img {
+            width: 120px; /* Aumenté el tamaño del martillo */
+            margin-left: -350px; /* Desplaza un poco más a la izquierda */
+        }
+        .text {
+            flex: 2;
+            font-size: 25px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .text2 {
+            position: absolute;
+            bottom: 20px; /* Coloca el copyright en la parte inferior */
+            font-size: 14px; /* Tamaño más pequeño para el copyright */
+            font-weight: normal;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="https://i.ibb.co/gLnCHyMh/Sin-t-tulo.png" alt="Logo" width="150">
+    <div class="container">
+        <div class="image-container">
+            <img src="https://i.ibb.co/YBNQ51q8/icons8-martillo-96.png" alt="Martillo y más">
+        </div>
+        <div class="text">404 Not Found</div>
+        <div class="text2">Copyright © 2025 by Encantia</div>
+    </div>
+</body>
+</html>
